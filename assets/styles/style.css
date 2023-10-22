@@ -1,0 +1,182 @@
+/* CSS */
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3 {
+  color: #7840a5;
+}
+
+footer {
+  padding: 10px;
+  color: white;
+  background-color: #7840a5;
+  text-align: center;
+  font-weight: bold;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 55px;
+  margin-top: 10px;
+}
+
+.sosmed {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+td a {
+  text-decoration: none;
+  color: black;
+}
+
+td a:hover {
+  text-decoration: underline;
+  color: #7840a5;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  padding-bottom: 10px;
+  background-color: #7a5597;
+  text-align: center;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-inline-start: 15px;
+}
+
+nav > ul > li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav {
+  text-align: center;
+  background-color: #7840a5;
+  padding: 3px;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  font-size: 15px;
+  font-weight: 400px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+  padding: 3px;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown:hover .list-dropdown {
+  display: block;
+}
+
+.list-dropdown {
+  position: absolute;
+  display: none;
+  text-align: left;
+  border-radius: 4px !important;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) !important;
+  background-color: #7a5597;
+}
+
+.list-dropdown a {
+  display: inline-block !important;
+  text-decoration: none !important;
+  padding: 10px 15px 0 0 !important;
+  margin-bottom: 10px !important;
+  color: white !important;
+}
+
+.list-dropdown a:hover {
+  font-weight: bold !important;
+  padding: none !important;
+}
+
+header {
+  display: inline;
+}
+
+header figcaption a {
+  text-decoration: none;
+  color: black;
+}
+
+header figcaption a:hover {
+  font-weight: bold;
+}
+
+.informasi {
+  text-align: center;
+}
+
+.informasi table {
+  text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
